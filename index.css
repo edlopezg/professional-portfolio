@@ -1,0 +1,156 @@
+/* Estilos generales  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Este es toda la parte del principio  */
+.intro {
+ background-color: #020403;
+ min-height: 100vh;
+ 
+}
+
+/* Estos son los estilos de la navegacion  */
+.menu li{
+display: inline-block; 
+font-family: 'Rubik', sans-serif;
+padding:30px 20px ;
+align-items: end;
+}
+body, html {
+    overflow-x: hidden;
+    }
+.home {
+    text-decoration: none;
+    color: #ADADAD;
+
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.imagenes {
+    text-align: center;
+    margin-top: 30px ;
+    position: relative;
+    z-index: 100;
+    
+    
+   
+}
+
+h3{
+    font-size: 50px;
+    color: #ADADAD;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+}
+h2{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+}
+p{
+    color: #ADADAD;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+
+}
+h4{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 200px;
+}
+
+.text {
+    width: 1200px;
+    margin-left: 130px;
+  
+}
+
+h5{
+    color: #ffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+ 
+}
+.icons{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+ 
+}
+
+.imagenes > svg {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    
+    
+    
+    }
+    .imagenes > img {
+        position: relative;
+        z-index: 100;
+        
+        }
+
+.curveline{
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 2;
+    z-index: 1;
+    margin-top:150px ;
+   
+   
+}
+
+.textexperience {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+h6 {
+
+    color: #ADADAD;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    border-bottom: solid ;
+    margin-bottom: 10px;
+}
+footer {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30x;
+    font-weight: 100;
+    margin-top: 200px;
+}
+
